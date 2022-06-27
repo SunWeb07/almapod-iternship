@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-16 1st June</title>
+</head>
+
+<body>
+    <h1>if else statement and math function</h1>
+    <h2>if else</h2>
+    <div id="div1"></div>
+    <h2>maths function</h2>
+    <div id="div2"></div>
+    <script>
+        //ifelse
+        let num1 = prompt("enter your age");
+        if (num1 == 18) {
+            alert("Young man Eligible to Vote");
+        } else if (num1 > 18 && num1 < 39) {
+            alert("Mature Youth Eligible to Vote");
+        } else if (num1 >= 39) {
+            alert("Senior Most Eligible to Vote");
+        } else {
+            alert("Too Young  to cast a vote");
+
+        }
+
+        function castvote(num1) {
+            if (num1 == 18) {
+                return ("Young man Eligible to Vote");
+            } else if (num1 > 18 && num1 < 39) {
+                return ("Mature Youth Eligible to Vote");
+            } else if (num1 >= 39) {
+                return ("Senior Most Eligible to Vote");
+            } else {
+                return ("Too Young  to cast a vote");
+
+            }
+        }
+
+        function givename() {
+            return "This is Mawani Sunny here";
+        }
+
+        function todayDate() {
+            let d = new Date();
+            return d;
+        }
+        document.getElementById('div1').innerHTML =
+            ` you have inputed this value ${num1} status - ${castvote(num1)} :::::: ${givename()} ::: todays date ${todayDate()} `;
+        //math function
+        document.getElementById('div2').innerHTML =
+            ` abs - ${Math.abs(3.4)} :: ceil - ${Math.ceil(3.4)} floor - ${Math.floor(3.4)} round - ${Math.round(3.4)} exp - ${Math.exp(3.4)} random - ${Math.random()} PI - ${Math.PI}  max - ${Math.max(1,213,14,121,3123,23,11)} min - ${Math.min(1,2,14,21,34,12,4)}`;
+    </script>
+</body>
+
+</html>

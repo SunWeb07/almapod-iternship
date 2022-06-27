@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+.logo-images{
+
+    width: 5%;
+}
+
+.row h2{
+    font-family: 'Cedarville Cursive', cursive;
+}
+h1,h3{
+    text-transform: uppercase;
+}
+.btn{
+    text-transform: capitalize;
+}
+.green{
+    background-color: rgb(79, 126, 8);
+    color: #fff;
+}
+.green i{
+    font-size: 3em;
+}
+#img{
+    width: 5%;
+}
+.lined div{
+     width: 15%;
+     margin-top: 15px;
+     margin-right: 10px;
+     margin-left: 10px;
+     border: 1px solid rgb(206, 206, 206);
+    height: 1px;
+}
+.sect{
+    background-image: url(../img/big-pro.jpg);
+    background-size: cover;
+    width: 100%;
+    background-color: darkgreen;
+    height: 100%;
+}
+.sect-con{
+    color: rgb(0, 0, 0);
+}
+.sect-con *:hover {
+    color: #000;
+    background-color: #fff;
+}
+.border-2{
+    border:10px solid #fff;
+    font-size: xx-large;
+}
+.sect *{
+    padding: 3px;
+    margin: 7.5px 15px;
+}
+sub{
+    font-size: 0.7em;
+}
+.sect h2,.sect h3{
+    font-size: 2.4em;
+}
+.sect span{
+    margin: 0 10px;
+}
+.btn-circle {
+ width: 20px;
+ height: 30px;
+    text-align: center;
+    padding: 1px;
+    font-size: 16px;
+    line-height: 1.428571429;
+    border-radius: 50%;
+  }
+  .set{
+    background-image: url(../img/home.jpg); 
+height: 100%;
+width: 100%;
+background-size: cover;
+text-transform: uppercase; }
+.pro-card{
+  
+    background-size: cover;
+    
+    margin: 20px 0;
+}
+#pro1{
+    background-image: url(../img/pro-1.jpg);
+}
+#pro2{
+    background-image: url(../img/pro-2.jpg);
+}
+#pro3{
+    background-image: url(../img/pro-3.jpg);
+}
+body{
+    background-color:#eee;
+}
+
+.btn{
+    border-radius: 50px;
+
+}
+.btni{
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(125, 126, 126);
+    margin: 2px 10px;
+    padding: 10px;
+}
+.ratings i{
+    color:rgb(251, 255, 0);
+    
+}
+h5{
+    text-transform: uppercase;
+}
+.btn-f{
+    border-radius:30px 0px 0px 30px;
+    border-left: 2px solid #fff;
+}
+.btn-b{
+    border-radius:0px 30px 30px 0px;
+    border-left: 2px solid rgb(255, 255, 255) !important;
+    border-color: #fff;
+}
+.card a{
+    text-transform: uppercase;
+}
+#fru,#veg,#eng,#meat,#flo,#jam{
+    display: none;
+    animation-name: example;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+
+ 
+  animation-direction: alternate;
+
+}
+.menu-content{
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  
+   
+    animation-direction: alternate; 
+}
+@keyframes example {
+    0%   {opacity:0}
+    25%  {opacity:0.25}
+    50%  {opacity:0.5}
+    75%  {opacity:0.75}
+    100% {opacity:1}
+  }
+  .link {
+    color: #000;
+    text-decoration: none;
+  }
+  .link:hover{
+    color: green;
+    text-decoration: underline;
+  }
+  html,body{
+    
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:768px) {
+    .btn{
+        font-size: 0.7em;
+    }
+    
+}

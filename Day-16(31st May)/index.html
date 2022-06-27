@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-15 31st May</title>
+</head>
+
+<body>
+    <h1>
+        Js Operation using Function
+    </h1>
+    <div id="get">
+
+    </div>
+    <script>
+        function add(n1, n2) {
+            return n1 + n2;
+        }
+
+        function sub(n1, n2) {
+            return n1 - n2;
+        }
+
+        function mul(n1, n2) {
+            return n1 * n2;
+        }
+
+        function div(n1, n2) {
+            return n1 / n2;
+        }
+
+        function exp(n1, n2) {
+            return n1 ** n2;
+        }
+
+        function mod(n1, n2) {
+            return n1 % n2;
+        }
+        let num1 = prompt("enter any number");
+        let num2 = prompt("enter any number");
+
+
+        function over() {
+            alert("all operation completed");
+        }
+        document.getElementById('get').innerHTML =
+            ` Add - ${add(parseInt(num1),parseInt(num2))} :: Sub - ${sub(num1,num2)} :: Mul - ${mul(num1,num2)} :: Div - ${div(num1,num2)} :: Mod - ${mod(num1,num2)} :: Exp - ${exp(num1,num2)}`;
+        over();
+    </script>
+</body>
+
+</html>

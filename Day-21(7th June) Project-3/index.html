@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amino</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row bg-dark text-white ">
+            <p class="text-center col-11">Up to 50% off <span class="text-success">Spring Sale</span> For
+                now
+                &amp; later
+                from
+                <span class="text-danger">$7.99</span></p>
+            <i class="bi-x-circle col-1"></i>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light row">
+            <div class="container-fluid">
+                <a class="navbar-brand col-4 col-lg-4 col-md-3 col-sm-12 mx-2" href="#">Amino</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse col-6 col-lg-6 col-md-6 col-sm-12" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Home Page</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Product</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="col-lg-2 col-md-2-col-xs-12 mx-lg-5 text-center ">
+                        <i class=" bi-search m-2"></i>
+                        <i class=" bi-person m-2"></i>
+                        <i class=" bi-heart m-2"></i>
+                        <i class=" bi-basket m-2"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <section class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active btn-circle p-1 bg-success" aria-current="true" aria-label="Slide 1"></button>
+                    <button class="btn-circle p-1  bg-success " type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active set">
+                        <div class="container p-5 m-3">
+                            <p class="p-lg-3 p-md-2 p-sm-1">Discover 100&percnt; Organic</p>
+                            <h1 class="p-lg-3 p-md-2 p-sm-1 ">Dry Fruits Up To 75&percnt; off</h1>
+                            <button class="btn border-1 bg-white p-lg-3 p-md-2 p-sm-1 m-2">shop now</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item set">
+                        <div class="container p-5 m-3">
+                            <p class="p-lg-3 p-md-2 p-sm-1">Discover 100&percnt; Organic</p>
+                            <h1 class="p-lg-3 p-md-2 p-sm-1 ">Dry Fruits Up To 75&percnt; off</h1>
+                            <button class="btn border-1 bg-white p-lg-3 p-md-2 p-sm-1 m-2">shop now</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="row m-3 text-white ">
+            <div class="col-lg-3 col-md-3 col-sm-12  m-lg-5 m-md-3 pro-card p-5" id="pro1">
+                <h3>Orange Juice Natural</h3>
+                <a href="" class="link-light">Shop Now</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 m-lg-5 m-md-3 pro-card p-5" id="pro2">
+                <h3>Orange Juice Natural</h3>
+                <a href="" class="link-light">Shop Now</a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 m-lg-5 m-md-3 pro-card p-5" id="pro3">
+                <h3>Orange Juice Natural</h3>
+                <a href="" class="link-light">Shop Now</a>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="row text-center">
+                <h2 class="text-success">Shop By Categories</h2>
+                <h3>Featured Categories</h3>
+                <div class="lined d-flex justify-content-center mb-3 align-content-center">
+                    <div></div>
+                    <img src="img/lined.jpg" id="img" class="img-responsive" alt="">
+                    <div></div>
+                </div>
+            </div>
+            <div class="row ">
+                <figure class="figure col-lg-2 col-md-3 col-sm-12 p-2 d-sm-block text-center">
+                    <img src="img/category-1.jpg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">Fruits</figcaption>
+                </figure>
+                <figure class="figure col-lg-2 col-md-3 col-sm-12 p-2 text-center">
+                    <img src="img/category-2.jpg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">Flour</figcaption>
+                </figure>
+                <figure class="figure col-lg-2 col-md-3 col-sm-12 p-2 text-center">
+                    <img src="img/category-3.jpg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">Vegetables</figcaption>
+                </figure>
+                <figure class="figure col-lg-2 col-md-3 col-sm-12 p-2 text-center">
+                    <img src="img/category-4.jpg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">Meat</figcaption>
+                </figure>
+                <figure class="figure col-lg-2 col-md-3 col-sm-12 p-2 text-center">
+                    <img src="img/category-5.jpg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">Flavoured Milk</figcaption>
+                </figure>
+                <figure class="figure col-lg-2 col-md-3 col-sm-12 p-2 text-center">
+                    <img src="img/category-6.jpg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">Jam</figcaption>
+                </figure>
+            </div>
+            <div class="row green p-5 mb-4  ">
+                <div class="col-lg-3 col-md-4 col-sm-12 d-flex align-content-center justify-content-evenly p-2">
+                    <i class="bi bi-truck p-1   "></i>
+                    <div class="p-lg-3 p-md-2 p-sm-1">
+                        <h5>
+                            Free Shipping
+                        </h5>
+                        <p>
+                            On all orders over &dollar; 75.00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 d-flex align-content-center justify-content-evenly p-2">
+
+                    <i class="bi bi-arrow-return-left p-1   "></i>
+
+                    <div class="p-lg-3 p-md-2 p-sm-1">
+                        <h5>
+                            Free Returns
+                        </h5>
+                        <p>
+                            Returns are tree within 9 days
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 d-flex align-content-center justify-content-evenly p-2">
+                    <i class="bi bi-headset p-1   "></i>
+                    <div class="p-lg-3 p-md-2 p-sm-1">
+                        <h5>
+                            Support 24/7
+                        </h5>
+                        <p>
+                            Contact us 24 hours a day
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 d-flex align-content-center justify-content-evenly p-2">
+                    <i class="bi bi-shield-fill-check p-1   "></i>
+                    <div class="p-lg-3 p-md-2 p-sm-1">
+                        <h5>
+                            100&percnt; Payment Secure
+                        </h5>
+                        <p>
+                            Your payment are safe with
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid mt-5">
+            <div class="row text-center mt-3 mb-3">
+                <h2 class="text-success">See Our Latest</h2>
+                <h3>New arrivals</h3>
+                <div class="lined d-flex justify-content-center mb-3 align-content-center">
+                    <div></div>
+                    <img src="img/lined.jpg" id="img" class="img-responsive" alt="">
+                    <div></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card col-lg-2 col-md-3 col-sm-12 p-lg-1 m-lg-5 p-md-1 m-md-3 ">
+                    <img src="img/apple.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fresh Apple 1Kg</h5>
+                        <p class="card-text">Shop</p>
+                        <p class="text-success">$4.00 - $40.00</p>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-12 p-lg-1 m-lg-5 p-md-1 m-md-3 ">
+                    <img src="img/avacado.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fresh Avocado 1Kg</h5>
+                        <p class="card-text">Shop</p>
+                        <p class="text-success">$4.00 - $40.00</p>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-12 p-lg-1 m-lg-5 p-md-1 m-md-3 ">
+                    <img src="img/maca-nut.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Macadamia Nuts</h5>
+                        <p class="card-text">Shop</p>
+                        <p class="text-success">$4.00 - $40.00</p>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-12 p-lg-1 m-lg-5 p-md-1 m-md-3 ">
+                    <img src="img/banana.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fresh Organic Fruits</h5>
+                        <p class="card-text">Shop</p>
+                        <p class="text-success">$4.00 - $40.00</p>
+                    </div>
+                </div>
+
+                <div class="card col-lg-2 col-md-3 col-sm-12 p-lg-1 m-lg-5 p-md-1 m-md-3 ">
+                    <img src="img/straw.png" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fresh Strawberry 1Kg</h5>
+                        <p class="card-text">Shop</p>
+                        <p class="text-success">$4.00 - $40.00</p>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-12 p-lg-1 m-lg-5 p-md-1 m-md-3 ">
+                    <img src="img/mango.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fresh Mango 1Kg</h5>
+                        <p class="card-text">Shop</p>
+                        <p class="text-success">$4.00 - $40.00</p>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-12 p-lg-1 m-lg-5 p-md-1 m-md-3 ">
+                    <img src="img/p-nut.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Wild Pecan Nuts</h5>
+                        <p class="card-text">Shop</p>
+                        <p class="text-success">$4.00 - $40.00</p>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-12 p-lg-2 m-lg-5 p-md-1 m-md-3">
+                    <img src="img/bbbb.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Betteraves BIO</h5>
+                        <p class="card-text">Shop</p>
+                        <p class="text-success">$4.00 - $40.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row sect p-lg-5 p-md-3 text-white mt-5 mb-5 col-12 img-thumbnail">
+            <div class="text-end sect-con p-lg-5 p-md-3 text-sm-center text-xl-center ">
+                <h2>
+                    Natural Product
+                </h2>
+                <h3>Save 40% Off</h3>
+                <p>
+                    Brocolli Roses, Always Fresh and Delicious.<br />100% Organic.
+                </p>
+                <div class="d-lg-flex d-md-flex d-sm-block text-center justify-content-end ">
+                    <p class="border-2 p-lg-1 p-md-1">23<sub>Hours</sub></p>
+                    <span>:</span>
+                    <p class="border-2 p-lg-1 p-md-1">28<sub>Mins</sub></p>
+                    <span>:</span>
+                    <p class="border-2 p-lg-1 p-md-1">26<sub>Secs</sup></p>
+                </div>
+                <button class="btn bg-white">Shop Now</button>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="row text-center">
+                <h2 class="text-success">My Choose Us</h2>
+                <h3>Why People Love Amino</h3>
+                <div class="lined d-flex justify-content-center mb-3 align-content-center">
+                    <div></div>
+                    <img src="img/lined.jpg" id="img" class="img-responsive" alt="">
+                    <div></div>
+                </div>
+                <div class="row p-lg-5 p-md-3">
+                    <div class="container mt-md-3 mb-md-3 mx-md-3  mt-lg-5 mb-lg-5 mx-lg-5  text-center">
+
+                        <div class="row g-lg-2 g-md-1 ">
+
+
+
+                            <div class="col-md-2 col-sm-6 how-img">
+                                <img src="img/custo-1.jpg" class="rounded-circle img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="user-content">
+
+                                    <div class="ratings">
+                                        <i class="bi bi-star-fill "></i>
+                                        <i class="bi bi-star-fill "></i>
+                                        <i class="bi bi-star-fill "></i>
+                                        <i class="bi bi-star-fill "></i>
+                                        <i class="bi bi-star-fill "></i>
+
+                                    </div>
+                                    <p>Having produce delivered to your home or office on a set frequency is
+                                        essesntial to obtaining the recommeded daily servingsog fruits and
+                                        vegetables.</p>
+                                    <h5 class="mb-0">Sandy Wilckie</h5>
+
+
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6 how-img">
+                                <img src="img/custo-2.jpg" class="rounded-circle img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="user-content">
+
+                                    <div class="ratings">
+                                        <i class="bi bi-star-fill "></i>
+                                        <i class="bi bi-star-fill "></i>
+                                        <i class="bi bi-star-fill "></i>
+                                        <i class="bi bi-star-fill "></i>
+                                        <i class="bi bi-star-fill "></i>
+
+                                    </div>
+                                    <p>Each delivery comes woth the option to view and make changes to the items in
+                                        oyur delivery. Also use your Never Send list to omit items you don't want.
+                                    </p>
+                                    <h5 class="mb-0">Marcosinacioluz</h5>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+        <section>
+            <div class="row text-center">
+                <h2 class="text-success">See our Latest</h2>
+                <h3>Our Products</h3>
+                <div class="lined d-flex justify-content-center mb-3 align-content-center">
+                    <div></div>
+                    <img src="img/lined.jpg" id="img" class="img-responsive" alt="">
+                    <div></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center d-lg-flex d-md-flex row menu p-lg-5 p-md-3">
+                    <a href="#fru" class="link col-lg-2  col-sm-6  menu-btn btn show1  p-md-2">Fruits</a>
+                    <a href="#flo" class="link col-lg-2  col-sm-6 menu-btn btn show2  p-md-2">Flour</a>
+                    <a href="#veg" class="link  col-lg-2  col-sm-6 menu-btn btn show3  p-md-2">Vegetable</a>
+                    <a href="#meat" class="link col-lg-2  col-sm-6 menu-btn btn show4  p-md-2">Meat</a>
+                    <a href="#eng" class="link col-lg-2  col-sm-6 menu-btn btn show5  p-md-2">Milk
+                        &amp; Eggs</a>
+                    <a href="#jam" class="link col-lg-2 col-sm-6  btn menu-btn show6  p-md-2">Jam</a>
+                </div>
+                <div id="fru" class="menu-content fru">
+                    <div class="d-lg-flex d-md-flex d-sm-block m-lg-2 m-md-1 p-lg-3 p-md-2 p-sm-1">
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="flo" class="menu-content flo">
+                    <div class="d-lg-flex d-md-flex d-sm-block m-lg-2 m-md-1 p-lg-3 p-md-2 p-sm-1">
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="veg" class="menu-content veg">
+                    <div class="d-lg-flex d-md-flex d-sm-block m-lg-2 m-md-1 p-lg-3 p-md-2 p-sm-1">
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="meat" class="menu-content meat">
+                    <div class="d-lg-flex d-md-flex d-sm-block m-lg-2 m-md-1 p-lg-3 p-md-2 p-sm-1">
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="eng" class="menu-content eng">
+                    <div class="d-lg-flex d-md-flex d-sm-block m-lg-2 m-md-1 p-lg-3 p-md-2 p-sm-1">
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="jam" class="menu-content jam">
+                    <div class="d-lg-flex d-md-flex d-sm-block m-lg-2 m-md-1 p-lg-3 p-md-2 p-sm-1">
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12 p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                        <div class="card col-lg-3 col-md-4 col-sm-12 col-xs-12  p-md-2 m-md-1">
+                            <img src="img/prod.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Betteraves BIO</h5>
+                                <p class="card-text">Shop</p>
+                                <p class="text-success">$4.00 - $40.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row m-5 ">
+            <div class="row text-center">
+                <h2 class="text-success">Read Our Blog</h2>
+                <h3>Latest News</h3>
+                <div class="lined d-flex justify-content-center mb-3 align-content-center">
+                    <div></div>
+                    <img src="img/lined.jpg" id="img" class="img-responsive" alt="">
+                    <div></div>
+                </div>
+            </div>
+            <div class="row p-lg-5 p-md-3 ">
+                <div class="card col-lg-4 col-md-4 col-sm-12">
+                    <img class="card-img-top" src="img/back-3.png" alt="Card image" style="width:100%">
+                    <div class="card-img-overlay">
+                        <a href="http://" class="btn btn-white border-1 border-dark bg-white upside">Snacks</a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Spring Dress Try - On Haul</h4>
+                        <p class="card-title">This is one og my favourite dress designers ( has been for years!) Every
+                            detail in this
+                            dress(
+                            30%</p>
+                    </div>
+                    <p class=" border">April 24,2021 <a href="" class="link link-success">by admin</a></p>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-12">
+                    <img class="card-img-top" src="img/back-1.png" alt="Card image" style="width:100%">
+                    <div class="card-img-overlay">
+                        <a href="http://" class="btn btn-white  border-1 border-dark bg-white upside">Chips</a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Aliquam vel ante mattis</h4>
+                        <p class="card-title">Donec vitae hendrerit, sit amet faucibus nist. Cras pretium arcu ex.
+                            Aenean posuere libero eu augur...</p>
+                    </div>
+                    <p class="border">April 24,2021 <a href="" class="link link-success">by admin</a></p>
+                </div>
+                <div class="card col-lg-4 col-md-4 col-sm-12">
+                    <img class="card-img-top" src="img/back-2.png" alt="Card image" style="width:100%">
+                    <div class="card-img-overlay">
+                        <a href="http://" class="btn btn-white border-1 border-dark bg-white upside">Uncategoried</a>
+                        <a href="http://" class="btn btn-white border-1 border-dark bg-white upside">Wordpress</a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Praesent imperdiet going</h4>
+                        <p class="card-title">Donec vitae hendrerit, sit amet faucibus nist. Cras pretium arcu ex.
+                            Aenean posuere libero eu augur...</p>
+
+                    </div>
+
+                    <p class="border">April 24,2021 <a href="" class="link link-success">by admin</a></p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="container-fluid bg-dark text-white ">
+        <div class=" row row-cols-1 align-items-center row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+            <div class="col-lg-6 col-md-6 col-sm-12 p-5 mb-3">
+                <h2>Let's Keep in touch</h2>
+                <p>Sign up for our e-mail to get latest news</p>
+                <form class="d-flex border-white ">
+
+                    <input type="email" name="" class="btn-f border-white bg-dark w-50"
+                        placeholder="enter your email address..." id="" />
+                    <button class=" btn-b bg-white text-dark">Sign Up</button>
+                </form>
+            </div>
+
+
+            <div class="col-lg-2 col-md-6 col-sm-12 mb-3 text-sm-center">
+                <h5>About</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">M-F 9am-5pm EST</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="bi bi-map"></i>Fox
+                            Mountain Rd, SOuth
+                            Fork, CO 81154, USA</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="bi bi-phone">
+                                +0123.456.8386</i></a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i
+                                class="bi bi-envelope">Support@posthemes.com</i></a></li>
+
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-sm-12 mb-3">
+                <h5>Extras</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Wishlist</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact us</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">My account</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-xs-12 mb-3">
+                <h5>Information</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About us</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact us</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Support Center</a>
+                    </li>
+
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Customer Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <i class="btni bi-facebook"></i><i class="btni bi-twitter"></i><i class="btni bi-google"></i><i
+                    class="btni bi-instagram"></i>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-2 mb-2">
+                <div>
+                    <p class="d-inline">
+                        copyright by PlazaThemes. All Rights Reserved.
+                    </p>
+                    <div class="d-inline col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <img class="img-fluid m-1 logo-images" src="img/amermicaexp.png" alt="" srcset="">
+                        <img class="img-fluid m-1 logo-images" src="img/bitcoin.png" alt="" srcset="">
+                        <img class="img-fluid m-1 logo-images" src="img/skrill-logo.png" alt="" srcset="">
+                        <img class="img-fluid m-1 logo-images" src="img/paypal.png" alt="" srcset="">
+                        <img class="img-fluid m-1 logo-images" src="img/mastercard.png" alt="" srcset="">
+                        <img class="img-fluid m-1 logo-images" src="img/visa.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script>
+        var $content = $('.menu-content');
+
+        function showContent(type) {
+            $content.hide().filter('.' + type).show();
+        }
+
+        $('.menu').on('click', '.menu-btn', function (e) {
+            showContent(e.currentTarget.hash.slice(1));
+            e.preventDefault();
+        });
+
+        // show 'about' content only on page load (if you want)
+        showContent('fru');
+    </script>
+</body>
+
+</html>

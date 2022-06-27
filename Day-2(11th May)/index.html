@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-2(11th May)</title>
+    <style>
+      span{color: blue;
+      font-size: large;}
+    </style>
+  </head>
+  <body>
+    <!--added a youtube video in iframe-->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/DKjBFXfLqQ8"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <br />
+    <!--added a mpe audio-->
+    <audio controls>
+      <source src="file.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <br />
+    <!--Added a mp4 video-->
+    <video controls>
+      <source src="video.mp4" type="audio/mp4" />
+      Your browser does not support the audio element.
+    </video>
+    <br />
+    <!--added imges with diffrent ways-->
+    <!--image in same folder-->
+    <img src="img.jpg" width="200px" height="100px" alt="Anonymous logo" />
+    <!--image in img folder from parent directory-->
+    <img
+      src="./img/img.jpg"
+      width="200px"
+      height="100px"
+      alt="Anonymous logo"
+    />
+    <!--image in img folder in same directory-->
+    <img src="img/img.jpg" width="200px" height="100px" alt="Anonymous logo" />
+    <!--image in parent folder-->
+    <img src="../img.jpg" width="200px" height="100px" alt="Anonymous logo" />
+    <!--image in from onljne link address-->
+    <img
+      src="https://assets.entrepreneur.com/content/3x2/2000/1623331196-812881-sundar-pichai-4542.jpg?crop=1:1"
+      width="200px"
+      height="100px"
+      alt="No internet"
+    />
+    <!--paragragh with special characters with blue color-->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit
+      <span>&amp;</span> Excepturi, aliquam quasi explicabo sunt ratione
+      inventore <span>&comma;</span> officiis accusamus velit suscipit voluptate
+      vero <span>&not;</span> Exercitationem odio officia quos, hic fugit esse
+      sequi culpa <span>&quest;</span> Unde voluptatum, officia sit, optio
+      blanditiis, et eaque <span>&GreaterFullEqual;</span> quos perspiciatis
+      molestias sed labore fugit dolorum quod esse repudiandae incidunt
+      <span>&LessFullEqual;</span> Ea, vel adipisci labore optio beatae corporis
+      quo recusandae vitae! Distinctio <span>&dot;</span>
+    </p>
+  </body>
+</html>

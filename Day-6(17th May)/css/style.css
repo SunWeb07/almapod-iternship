@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: navy;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  input {
+    border: none;
+  }
+  input::placeholder {
+    color: #fff;
+  }
+  .head {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+  }
+  .head h1 {
+    font-size: 500%;
+    margin: 20px;
+  }
+  .head p {
+    font-size: 100;
+    margin: 10px;
+    padding: 10px;
+  }
+  .content {
+    width: 100%;
+  }
+  .content-left {
+    float: left;
+    padding: 20px;
+    width: 50%;
+  }
+  .content-right {
+    float: right;
+    width: 50%;
+  }
+  .contact {
+    clear: left;
+    margin: 25px;
+    padding: 24px;
+  }
+  .icr {
+    margin: 10px;
+    padding: 5px;
+  }
+  .con-l {
+    float: left;
+    width: 40%;
+    height: 10%;
+  }
+  
+  .con-r {
+    float: right;
+    width: 40%;
+  }
+  .con-r a {
+    display: block;
+    padding: 5px;
+  }
+  h2 {
+    font-size: 250%;
+    text-align: left;
+    margin-left: 58px;
+  }
+  
+  .contact h3 {
+    font-size: 150%;
+    margin-bottom: 10px;
+    color: tomato;
+  }
+  div input {
+    width: 40%;
+    padding: 20px;
+    margin: 5px 5px;
+    border-bottom: 1px solid #fff;
+  }
+  .content-right div {
+    text-align: center;
+  }
+  
+  div button {
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    width: 49%;
+    padding: 1.5rem;
+  }
+  .icr p {
+    font-size: x-small;
+    margin: 10px 0;
+  }
+  .active {
+    color: tomato;
+  }
+  #pro {
+    width: 80%;
+  }
+  
+  /*
+  assignment 6 to implement psuedo classes and element
+  */
+  
+  /* psuedo classes */
+  a:hover {
+    color: navy;
+    background-color: #fff;
+  }
+  
+  a:focus {
+    color: purple;
+  }
+  
+  input:focus {
+    background-color: gray;
+  }
+  input:hover {
+    border: 2px solid #b7b9b9;
+    border-radius: 14px;
+    background-color: yellow;
+    color: black;
+  }
+  div:nth-child(2) {
+    color: navy;
+    background-color: #fff;
+  }
+  div:nth-last-child(1) {
+    color: #1414a1;
+    border: 1px solid #000;
+  }
+  div:first-child {
+    background-color: gold;
+  }
+  button:last-child {
+    background-color: silver;
+  }
+  :not(button) {
+    padding: 1px;
+  }
+  button:hover {
+    background-color: crimson;
+    color: rgb(59, 0, 59);
+    border: 5px dotted #000;
+    border-radius: 100%;
+  }
+  
+  /* psuedo element */
+  p::first-letter {
+    color: #e20000;
+    font-size: xx-large;
+  }
+  p::first-line {
+    color: #e4e4e4;
+    font-variant: small-caps;
+  }
+  header::before {
+    content: "before Header";
+    color: #eff306;
+  }
+  header::after {
+    content: "after Header";
+    color: #eeff04;
+  }
+  p::selection {
+    background-color: grey;
+    color: black;
+  }
+  

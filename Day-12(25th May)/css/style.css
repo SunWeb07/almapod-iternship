@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: navy;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+
+
+  input {
+    border: none;
+  }
+  input::placeholder {
+    color: #fff;
+  }
+  .head {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+  }
+  .head h1 {
+    font-size: 500%;
+    margin: 20px;
+   
+  }
+  .head p {
+    font-size: 100;
+    margin: 10px;
+    padding: 10px;
+  }
+  /*align self is used here*/
+  .content {
+    width: 100%;
+   display: flex; 
+   align-self: stretch;
+  }
+  .con-r a {
+    display: block;
+    padding: 5px;
+  }
+  h2 {
+    font-size: 250%;
+    text-align: left;
+    margin-left: 50px;
+    
+   
+  }
+
+  .contact h3 {
+    font-size: 150%;
+    margin-bottom: 10px;
+    color: tomato;
+    
+  }
+  /*order is used here*/
+  .content-left{
+    max-width: 50%;
+    flex: 50%;
+    margin-left: 30px;
+      order: 2;
+  }
+  .contact{
+    margin:10px 15px;
+    padding: 25px;
+  }
+  .pick{
+    display: flex;
+  
+  }
+  /*flex -basis is used here*/
+  .con-l{
+    flex-basis: auto;
+ 
+    padding: 10px;
+    
+  }
+  /*flex - grow is used here*/
+  .con-l p{
+    width: 60%;
+    flex-grow: 2;
+  }
+  .con-r{
+    flex: 50%;
+    flex-grow: 1;
+    width: 100%;
+  }
+/*flex shrink is used here*/
+  .content-right{
+    max-width: 50%;
+    flex: 50%;
+    flex-shrink: 5;
+    order: 1;
+  }
+  .content-right input{
+    border-bottom: 1px solid #fff;
+    width: 40%;
+    padding: 30px;
+    margin: 5px 5px;
+  }
+  #pro{
+    width: 80%;
+  }
+  .icr p {
+    font-size: x-small;
+    margin: 10px 0;
+  }
+  .active {
+    color: tomato;
+  }
+  div button {
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    width: 49%;
+    padding: 1.5rem;
+    
+  }
+  .icr {
+    margin: 10px;
+    padding: 5px;
+    
+  }

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        :root {
+            --mainWhite: #f2fdff;
+            --mainBlue: #3e92cc;
+        }
+
+        .max-height {
+            min-height: 100vh;
+        }
+
+        body {
+            background: var(--mainWhite);
+        }
+
+        .img-container {
+            min-height: 60vh;
+            background: url(img/home.png) center/cover fixed no-repeat;
+
+            border-radius: 0.5rem;
+            position: relative;
+        }
+
+        @media screen and (min-width: 768px) {
+            .img-container {
+                min-height: 80vh;
+            }
+        }
+
+        .btn-left {
+            position: absolute;
+            top: 50%;
+            left: 0;
+
+            color: var(--mainWhite) !important;
+            transform: translate(-50%, -50%);
+
+            font-size: 1.2rem;
+        }
+
+        .btn-left:hover {
+            border-color: var(--mainBlue);
+            background: var(--mainWhite);
+            color: var(--mainBlue) !important;
+        }
+
+        .btn-right {
+            position: absolute;
+            top: 50%;
+            right: 0;
+
+            color: var(--mainWhite) !important;
+            font-size: 1.2rem;
+            transform: translate(50%, -50%);
+
+        }
+
+        .btn-right:hover {
+            border-color: var(--mainBlue);
+            background: var(--mainWhite);
+            color: var(--mainBlue) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section-1 img-container">
+        <div>
+            <span class="dot" onclick="getSlide(0)"></span>
+            <span class="dot" onclick="getSlide(1)"></span>
+            <span class="dot" onclick="getSlide(2)"></span>
+
+        </div>
+        <div class="inner-content-1">
+            <h2>We make your business</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit reprehenderit quasi numquam quae
+                corporis,
+                veniam doloribus nesciunt facere enim voluptatem porro dolorum laudantium sed, ea ut inventore
+                suscipit
+                similique. Maiores?</p>
+            <button class="btn">read more</button><button class="btn">purchases now</button>
+        </div>
+        <a class="btn btn-left"><i class="fas fa-caret-left"></i></a>
+        <a class="btn btn-right"><i class="fas fa-caret-right"></i></a>
+    </div>
+
+
+    <script>
+        (function () {
+            const pictures = [
+                "home",
+                "home-bl",
+                "home-ss",
+            ];
+
+            //select both left and right button. Add event listeners
+            const buttons = document.querySelectorAll('.btn')
+            const imageDIV = document.querySelector('.img-container')
+            let counter = 0
+
+            buttons.forEach(function (button) {
+                button.addEventListener('click', function (e) {
+                    if (button.classList.contains('btn-left')) {
+                        counter--
+                        if (counter < 0) {
+                            counter = pictures.length - 1
+                        }
+                        imageDIV.style.backgroundImage = `url('./img/${pictures[counter]}.png')`
+                    }
+                    if (button.classList.contains('btn-right')) {
+                        counter++
+                        if (counter > pictures.length - 1) {
+                            counter = 0
+                        }
+                        imageDIV.style.backgroundImage = `url('./img/${pictures[counter]}.png')`
+                    }
+                })
+            })
+        })();
+
+        function getSlide(o) {
+            const pictures = [
+                "home",
+                "home-bl",
+                "home-ss",
+            ];
+
+            //select both left and right button. Add event listeners
+
+            const imageDIV = document.querySelector('.img-container')
+            imageDIV.style.backgroundImage = `url('img/${pictures[o]}.png`;
+        }
+    </script>
+
+</body>
+
+</html>
